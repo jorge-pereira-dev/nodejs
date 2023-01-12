@@ -7,12 +7,13 @@
         <title>Hello World Simple App</title>
     </head>
     <body>
-        <div>Hello World!</div>
-
         <div>
-            <form action="/redirect" method="POST">
-                <button type="submit">Redirect</button> 
-            </form>
-        </div> 
+            Data: <b><%=data.date%></b>
+            Ambiente:<b><%=data.ambte%></b>
+        </div>
+
+        <form action="/return" method="POST">
+            <button type="submit">Return</button> 
+        </form> 
     </body>
 </html>
