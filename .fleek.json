@@ -1,0 +1,6 @@
+{
+ "build": {
+   "image": "node:nodejs",
+   "command": "npm install && node app.js",
+ }
+}
